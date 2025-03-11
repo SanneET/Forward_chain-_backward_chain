@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    text-align: center;
+    padding: 2rem;
+}
+  
+.game-image {
+    width: 250px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+  
+.question p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+  
+.btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+  
+.btn.yes {
+    background-color: #3b82f6;
+}
+  
+.btn.no {
+    background-color: #ef4444;
+}
+  
+.result p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+/*Styler reset buttom til sidst */
+.btn.reset {
+    background-color: #10b981;
+    margin-top: 20px;
+}
+  
+.btn.reset:hover {
+    background-color: #059669;
+}
